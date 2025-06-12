@@ -1,0 +1,31 @@
+FAQs and Knowledge Base Information
+
+Q: What is your return policy?
+A: Items can be returned within 30 days of purchase with a valid receipt. The item must be in its original condition.
+
+Q: How long does delivery take?
+A: Standard delivery takes 3-5 business days. Express delivery is available for 1-2 business days.
+
+Q: How can I track my order?
+A: You can track your order by logging into your account or using the tracking number sent to your email.
+
+Q: What payment methods do you accept?
+A: We accept credit/debit cards, PayPal, and bank transfers.
+
+Q: How do I cancel my order?
+A: You can cancel your order within 24 hours of placing it by contacting our customer service.
+
+Q: Are there any shipping charges?
+A: Free shipping is available on orders above $50. For orders below $50, a shipping fee of $5 is applicable.
+
+Q: How do I contact customer service?
+A: You can reach our customer service team at support@example.com or call us at 1-800-123-4567.
+
+Q: What are your business hours?
+A: Our customer service is available Monday to Friday, 9 AM to 6 PM EST.
+
+Q: How do I file a complaint?
+A: You can file a complaint through our chatbot or by emailing complaints@gmail.com with your details and issue.
+
+Q: How long does it take to resolve a complaint?
+A: We aim to resolve all complaints within 5 business days of receiving them.

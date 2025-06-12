@@ -14,13 +14,34 @@ try:
     # Initialize environment
     env_info = setup_environment()
     
-    if env_info["is_cloud"]:
-        st.set_page_config(
-            page_title="CyBot Customer Support",
-            page_icon="🤖",
-            layout="wide",
-            initial_sidebar_state="auto"
-        )
+    # Set page config consistently across all environments
+    st.set_page_config(
+        page_title="CyBot Customer Support",
+        page_icon="🤖",
+        layout="wide",
+        initial_sidebar_state="auto",
+        menu_items={
+            'About': "# CyBot Support Assistant\nPowered by RAG technology"
+        }
+    )
+    
+    # Apply theme consistently (override Streamlit Cloud's default dark theme)
+    st.markdown("""
+        <style>
+        .stApp {
+            background-color: #f5f7fb;
+        }
+        .stSidebar {
+            background-color: #f0f2f6;
+        }
+        .stTextInput, .stSelectbox {
+            background-color: white;
+        }
+        body {
+            color: #1e1e1e;
+        }
+        </style>
+    """, unsafe_allow_html=True)
     
     # Get application settings
     app_settings = get_app_settings()

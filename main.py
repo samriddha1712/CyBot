@@ -89,7 +89,7 @@ st.subheader(APP_DESCRIPTION)
 
 # Initialize session state
 if 'responses' not in st.session_state:
-    st.session_state['responses'] = ["How can I assist you with your documents today?"]
+    st.session_state['responses'] = ["How can I assist you?"]
 
 if 'requests' not in st.session_state:
     st.session_state['requests'] = []

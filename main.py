@@ -416,13 +416,6 @@ with response_container:
 
 # Add info section at the bottom
 st.markdown("---")
-st.markdown("""
-### How to use CyBot
-1. Upload your documents to the `data` folder
-2. Run `python indexing.py` to index your documents
-3. Start the app using `streamlit run main.py`
-4. Ask questions about your documents
-""")
 
 # Add a sidebar with additional information
 with st.sidebar:
@@ -437,14 +430,7 @@ with st.sidebar:
     
     st.subheader("About")    
     st.write("""
-    CyBot is a document-aware chatbot that can answer questions based on your own documents.
-    
-    It uses:
-    - **LangChain** for prompt engineering
-    - **Pinecone** for vector search
-    - **Groq with Llama 3 70B** for generating responses
-    - **Sentence Transformers** for embeddings
-    - **Streamlit** for the user interface
+    CyBot is a document-aware chatbot that can answer questions based on your own documents. You can file complaints and also see the details of the complaints.
     """)
       # Add a reset button to clear the conversation
     if st.button("Reset Conversation"):

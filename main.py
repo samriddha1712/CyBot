@@ -112,11 +112,12 @@ if 'query_refinement' not in st.session_state:
 # System message template
 system_msg_template = SystemMessagePromptTemplate.from_template(
     template="""Answer the question as truthfully as possible using the provided context. 
-    If the user wants to file a complaint, guide them through the process by collecting their name, phone number, 
-    email address, and complaint details. If the user asks about a complaint status, help them retrieve it.
+    If the user wants or intents to file a complaint, then generate a response that says: To file a complaint, Write in the input box: "I want to file a complaint" and then follow the instructions.
+    
+    If the user asks about a complaint status, then generate a response that says: To get a complaint details, Write in the input box: "Get complaint status along with the complaint ID".
     
     If the answer is not contained within the text and you don't have enough information, say 'I don't have enough 
-    information to answer that question.'
+    information to answer that question. Please provide more details or check the "Query Refinement" option to refine your question.'
     
     Be concise, helpful, and informative."""
 )

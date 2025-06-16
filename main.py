@@ -82,7 +82,7 @@ header + section > div:first-child > div:first-child {
 # Initialize sidebar options early to avoid undefined variables
 with st.sidebar:
     st.subheader("Settings")
-    refine_query = st.checkbox("Enable Query Refinement", value=False)
+    refine_query = st.checkbox("Enable Query Refinement", value=True)
 
 st.markdown("<h1 class='title'>CyBot: Your Smart Assistant</h1>", unsafe_allow_html=True)
 st.subheader(APP_DESCRIPTION)
